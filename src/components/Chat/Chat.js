@@ -52,7 +52,7 @@ const Chat =()=>{
             setUsers(users);
           });
 
-    }, [message])
+    }, [messages])
 
     const sendMessage = (event)=>{
         event.preventDefault()
